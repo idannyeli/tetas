@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-size: 40px;
+}
+
+
+h1{
+    color:darkred;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2{
+    color: brown;
+}
+
+p,li{
+    color:blue;
+}
+
+
+a{
+    
+    
+    border-color: blue;
+    color:chartreuse;
+    padding-left:800px;
+    
+
+}
+
+.contenedor-imagenes {
+    display: flex; /* Utilizamos flexbox para alinear las imágenes en línea */
+  }
+  
+  /* Otras opciones de estilo, como márgenes o espaciado entre las imágenes */
+  .contenedor-imagenes img {
+    margin-right: 50px; Espacio entre las imágenes (puedes ajustar esto según tus necesidades)
+  }
+
+  
+#fotos_contenidas{
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px; */
+    /* grid-template-columns:25% 25% 25% 25%; */
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+
+#fotos_puta{
+    font-size: 50px;
+    text-align: center;
+}
